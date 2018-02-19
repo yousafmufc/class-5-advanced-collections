@@ -93,3 +93,33 @@ Group invoices by customer and invoice number. Your final result will look somet
     }
 }
 ```
+
+### Step 4: Calculate total per invoice per customer
+
+Calculate each invoice's total and keep them also grouped by customer.
+
+![image](https://user-images.githubusercontent.com/872296/36392376-b3ff802a-1589-11e8-887e-43c9b6faf80d.png)
+
+Expected result will look:
+
+```python
+{
+    '17850': {
+        '536365': 139.12,
+        '536366': 22.20,
+        '536372': 22.20,
+        '536373': 15.30,
+    },
+    '13047': {
+        '536367': 278.73,
+        '536368': 70.05,
+        '536369': 17.85,
+    },
+    '12583': {
+        '536370': 855.86
+    },
+    '13748': {
+        '536371': 204
+    }
+}
+```
