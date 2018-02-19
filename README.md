@@ -6,7 +6,7 @@
 
 The first step is to parse the raw string into a list containing products (as lists). It'll end up being a nested collections (a list of lists).
 
-### Step 2: Group by customers
+### Step 2: Group by customers
 
 Group invoices per customer. Your final result will look something like:
 
@@ -38,7 +38,7 @@ Group invoices per customer. Your final result will look something like:
 ```
 
 
-### Step 3: Group by customers and invoice number
+### Step 3: Group by customers and invoice number
 
 Group invoices by customer and invoice number. Your final result will look something like:
 
