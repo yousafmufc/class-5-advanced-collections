@@ -179,7 +179,7 @@ def test_step_3_group_by_customer_and_invoice():
 
 def test_step_4_calculate_totals():
     products = calculate_total_per_invoices(products_string)
-    print(products)
+
     assert products == {
         '17850': {
             '536365': 139.12,
