@@ -1,8 +1,13 @@
 from data import products_string
+from step_0 import simple_add
 from step_1 import transform_products_to_list
 from step_2 import group_products_by_customer
 from step_3 import group_products_by_customer_and_invoice
 from step_4 import calculate_total_per_invoices
+
+def test_step_0_warmup():
+    assert simple_add(10, 5) == 15
+    assert simple_add(9, -2) == 7
 
 
 def test_step_1_products_string_to_list():
